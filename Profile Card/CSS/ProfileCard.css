@@ -81,7 +81,6 @@ body {
 }
 .social-icons a:nth-child(1):hover {
     box-shadow: 0 4px 12px rgba(0, 119, 181, 0.5);
-     /* Facebook shadow */
 }
 .social-icons a:nth-child(2):hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 

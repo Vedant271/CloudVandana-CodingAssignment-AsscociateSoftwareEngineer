@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class AnagramCheck {
+    // Most Optimal Solution
+    // Time Complexity - O(n) where n is the length of string
+    // Space Complexity - O(1)
     public Boolean AnagramCheckFun(String stringA, String stringB){
         int[] letterFrequency = new int[26];
         for(int i=0;i<stringA.length();i++){
