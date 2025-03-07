@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+    max-width: 800px; 
+    overflow-wrap: break-word;
+}
+.profile-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3.5px solid #007bff;
+}
+.profile-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+.profile-card p {
+    color: #666;
+    margin-bottom: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+.social-icons a i {
+    color: white;
+}
+.social-icons a:nth-child(1) {
+    background-color: #0077b5 ; 
+}
+.social-icons a:nth-child(2) {
+    background-color: #000000 ; 
+}
+.social-icons a:nth-child(3) {
+    background-color: #ff5700;
+}
+.social-icons a:nth-child(4) {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.social-icons a:nth-child(5) {
+    background-color: #3b5998; 
+}
+.social-icons a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.social-icons a:nth-child(1):hover {
+    box-shadow: 0 4px 12px rgba(0, 119, 181, 0.5);
+     /* Facebook shadow */
+}
+.social-icons a:nth-child(2):hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); 
+}
+.social-icons a:nth-child(3):hover {
+    box-shadow: 0 4px 12px rgba(255, 69, 0, 0.5);
+}
+.social-icons a:nth-child(4):hover {
+    box-shadow: 0 4px 12px rgba(253, 203, 130, 0.5), 0 4px 12px rgba(214, 41, 118, 0.5), 0 4px 12px rgba(150, 47, 191, 0.5), 0 4px 12px rgba(78, 91, 147, 0.5);
+}
+.social-icons a:nth-child(5):hover {
+    box-shadow: 0 4px 12px rgba(59, 89, 152, 0.5);
+}

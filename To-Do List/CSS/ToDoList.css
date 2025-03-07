@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;400;600&family=Montserrat:wght@300;400;600&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #faf9f6;
+}
+
+
+#to-do-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 25px rgba(75, 75, 75, 0.277);
+    background-color: #ffffff;
+}
+
+.to-do{
+    max-width: 700px;
+    overflow-wrap: break-word;
+}
+
+.remove-btn {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.remove-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 25px rgba(75, 75, 75, 0.277);
+}
+
+.add-task{
+    padding: 8px 15px;
+    color: #007bff;
+    background-color: #007bff4d;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 10px;
+    box-shadow: 0px 1px 25px rgba(75, 75, 75, 0.277);
+}
+
+.add-task:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 25px rgba(75, 75, 75, 0.277);
+}
+
+.task-input{
+    width: 500px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    box-shadow: 0px 1px 25px rgba(75, 75, 75, 0.277);
+    outline: none;
+}
+
+.fa-plus{
+    padding: 0px 10px 0px 0px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.check-icon {
+    color: green;
+    font-size: 18px;
+    margin: 0px 8px;
+    max-width: 15px;
+}
